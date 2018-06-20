@@ -1,4 +1,4 @@
-package br.com.lgigek.infocafefatec;
+package br.com.infocafefatec.steps;
 
 import cucumber.api.java.pt.Dado;
 import cucumber.api.java.pt.E;
@@ -9,16 +9,11 @@ public class StepDefinition {
 
 	@Dado("^Que o usuário está na página de login$")
 	public void acessarTelaLogin() {
-
+		
 	}
 
 	@Dado("^Que o usuário já está autenticado$")
 	public void autenticarComUsuarioValido() {
-
-	}
-
-	@Dado("^Que o usuário já está autenticado$")
-	public void autenticarUsuario() {
 
 	}
 
