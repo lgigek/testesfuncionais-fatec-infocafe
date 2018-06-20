@@ -9,7 +9,7 @@ Funcionalidade: Realizar login
   Cenário: Tentar realizar login com usuário inexistente
     Dado Que o usuário está na página de login
     Quando O usuário realiza login com um usuário inexistente
-    Então O usuário é direcionado para a página inicial
+    Então O usuário é direcionado para a tela de login
 
   Cenário: Realizar logout
     Dado Que o usuário já está autenticado
