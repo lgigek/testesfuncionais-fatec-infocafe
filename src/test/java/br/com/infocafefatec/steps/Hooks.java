@@ -13,7 +13,7 @@ public class Hooks {
 	@Before
 	public void setUp(final cucumber.api.Scenario scenario) {
 		ChromeOptions chromeOptions = new ChromeOptions();
-		chromeOptions.addArguments("--start-maximized");
+		chromeOptions.addArguments("--headless");
 		browser = Browser.createChromeInstance(chromeOptions, null);
 	}
 
