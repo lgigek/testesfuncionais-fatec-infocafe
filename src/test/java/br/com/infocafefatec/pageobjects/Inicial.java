@@ -2,9 +2,9 @@ package br.com.infocafefatec.pageobjects;
 
 import org.openqa.selenium.By;
 
-import br.com.lgigek.core.Browser;
-import br.com.lgigek.core.Element;
-import br.com.lgigek.scenario.Scenario;
+import br.com.lgigek.thrall.core.Browser;
+import br.com.lgigek.thrall.core.Element;
+import br.com.lgigek.thrall.scenario.Scenario;
 
 public class Inicial {
 

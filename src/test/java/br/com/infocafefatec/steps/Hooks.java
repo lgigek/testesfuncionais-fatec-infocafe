@@ -2,7 +2,7 @@ package br.com.infocafefatec.steps;
 
 import org.openqa.selenium.chrome.ChromeOptions;
 
-import br.com.lgigek.core.Browser;
+import br.com.lgigek.thrall.core.Browser;
 import cucumber.api.java.After;
 import cucumber.api.java.Before;
 
